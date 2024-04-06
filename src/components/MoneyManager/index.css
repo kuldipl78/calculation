@@ -1,0 +1,108 @@
+.main-Container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.card-Container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 100px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+.heading {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.description {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: 600;
+}
+.highlight-text {
+  color: blue;
+}
+
+.amount-containere {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.balance-container {
+  border: 2px solid rgb(32, 205, 58);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  background-color: rgb(208, 231, 185);
+  display: flex;
+  flex-direction: row;
+}
+
+.income-container {
+  border: 2px solid rgb(12, 145, 140);
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(146, 211, 228);
+  display: flex;
+  flex-direction: row;
+}
+
+.expenses-container {
+  border: 2px solid rgb(112, 18, 98);
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(218, 194, 226);
+  display: flex;
+  flex-direction: row;
+}
+
+.balnace {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 60px;
+  width: 60px;
+  margin-top: 20px;
+}
+.balnace {
+  margin-left: 15px;
+}
+.cash {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+}
+.transection-container {
+  width: 30%;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
